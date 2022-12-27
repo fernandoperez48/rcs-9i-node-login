@@ -12,3 +12,5 @@ const tokenValidation = (req, res, next) => {
     res.status(400).json({ error: 'Acceso DENEGADO' });
   }
 };
+
+module.exports = tokenValidation;
